@@ -1,11 +1,11 @@
-# System Level Programming 
-Main repo for MKS65 Fall 2018 course assignments 
+# System Level Programming
+Main repo for MKS65 Fall 2018 course assignments
 ## Projects
 ### 00 - MUSIC LIBRARY
 * Add a song
 * Retrieve all songs by an artist
 * Search for a(n) song/artist
-* Print all artists whose name start with a specific letter along with their songs 
+* Print all artists whose name start with a specific letter along with their songs
 * Print entire library
 * Delete a song from the library
 * Clear entire library
@@ -26,7 +26,7 @@ Main repo for MKS65 Fall 2018 course assignments
 * Generate a random number using `srand()` in combination with `time()`
 * Manipulate pointers to copy data from one array to another
 ### 05 - STRING FUNCTIONS
-* Rewrite some of the basic C string functions 
+* Rewrite some of the basic C string functions
 ### 06 - STRUCT
 * Modify/print data stored in a struct
 ### 07 - LINKED LIST
@@ -51,14 +51,14 @@ Main repo for MKS65 Fall 2018 course assignments
 * Recursively list the files in subdirectories
 * Handle invalid input using `errno`
 ### 13 - SIGNAL HANDLING
-* Print `pid` 
+* Print `pid`
 * `Sleep()`
 * Handle `SIGINT` (`ctrl`+`c`) and `SIGUSR1` (`kill -10`)
 ### 14 - PARSING STRING
 * Parse a string into an array by a given delimiter
 * Use `execvp` to execute the given array of args
 ### 15 - FORK
-* Fork two child processes 
+* Fork two child processes
 * Have parent process wait for child to finish and get its return value
 ### 16 - SHARED MEMORY SEGMENTS
 * Generate a unique key using `ftok()`
@@ -69,3 +69,11 @@ Main repo for MKS65 Fall 2018 course assignments
 * Discard memory segment
   * Detach process from segment when done
   * Delete shared segment from heap
+### 17 - SEMAPHORES
+* Control file
+ * Create/remove semaphores, shared memory segments
+ * Open a file in truncate mode
+ * View contents of a file line by line
+* Write file
+ * Use semaphore to let user write to a file
+ * Use a shared memory segment to store last line written to file
