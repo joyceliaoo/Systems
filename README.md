@@ -77,3 +77,5 @@ Main repo for MKS65 Fall 2018 course assignments
 * Write file
  * Use semaphore to let user write to a file
  * Use a shared memory segment to store last line written to file
+### 18 - NETWORK HANDSHAKE
+* 3 way handshake between server and client
