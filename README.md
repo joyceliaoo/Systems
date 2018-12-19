@@ -79,3 +79,10 @@ Main repo for MKS65 Fall 2018 course assignments
  * Use a shared memory segment to store last line written to file
 ### 18 - NETWORK HANDSHAKE
 * 3 way handshake between server and client
+### 19 - NETWORK PART II
+* Client sends message to server and receives a response
+* Server receives client message and sends back metadata
+* Process continues until client exits
+    * Server then closes both pipes
+    * Server Resets
+* Server removes wkp upon receiving SIGINT
