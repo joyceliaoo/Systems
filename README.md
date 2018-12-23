@@ -86,3 +86,5 @@ Main repo for MKS65 Fall 2018 course assignments
     * Server then closes both pipes
     * Server Resets
 * Server removes wkp upon receiving SIGINT
+### 20 - FORKING SUBSERVERS
+* Main server forks off a subserver for each connection
