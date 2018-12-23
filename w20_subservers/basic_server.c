@@ -26,7 +26,6 @@ int main() {
         if (f) { // parent
             // rm wkp
             remove("main");
-            // close wkp
             close(wkp);
             printf("[server] wkp has been removed\n");
 
